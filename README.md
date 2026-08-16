@@ -74,8 +74,7 @@ node esbuild.js
 node buildpack.js clean build
 ```
 
-You can find the built mod at `intentional-pickup-bedrock/build/intentional_pickup-bedrock-x.x.x+mc26.40.zip`.
-
+You can find the built addon at `intentional-pickup-bedrock/build/intentional_pickup-bedrock-x.x.x+mc26.40.zip`.
 
 ## Play Java Edition?
 
