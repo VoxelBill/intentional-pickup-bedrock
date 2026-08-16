@@ -1,0 +1,9 @@
+# Javascript stuff
+/node_modules/
+
+# Minecraft stuff
+build/
+scripts/
+
+# Misc files
+*.directory

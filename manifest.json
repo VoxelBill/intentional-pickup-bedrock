@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Intentional Pickup (Bedrock)",
+        "description": "A simple addon that makes mobs only pickup items that are intentionally dropped by players.",
+        "uuid": "bb6e0148-1b22-4460-b499-937cd98f882c",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 26, 40]
+    },
+    "modules": [
+        {
+            "version": [1, 0, 0],
+            "uuid": "a822eccf-ee4f-43a9-bcb2-bb67adfacc20",
+            "type": "data"
+        },
+        {
+            "uuid": "262c7b3a-5026-4f16-a9ba-87c35567a016",
+            "version": [1, 0, 0],
+            "type": "script",
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.9.0"
+        }
+    ]
+}
