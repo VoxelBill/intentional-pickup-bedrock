@@ -69,9 +69,14 @@ cd intentional-pickup-bedrock
 node esbuild.js
 ```
 
-4. Build the project into packaged addon zip
+4. Build the project into packaged addon
 ```sh
 node buildpack.js clean build
 ```
 
 You can find the built mod at `intentional-pickup-bedrock/build/intentional_pickup-bedrock-x.x.x+mc26.40.zip`.
+
+
+## Play Java Edition?
+
+**Intentional Pickup** is available as a Minecraft: Java Edition mod. You can visit its repo [here](https://github.com/VoxelBill/intentional-pickup).
