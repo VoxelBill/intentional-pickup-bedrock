@@ -78,4 +78,4 @@ You can find the built addon at `intentional-pickup-bedrock/build/intentional_pi
 
 ## Play Java Edition?
 
-**Intentional Pickup** is available as a Minecraft: Java Edition mod. You can visit its repo [here](https://github.com/VoxelBill/intentional-pickup).
+**Intentional Pickup (Bedrock)** has a Minecraft: Java Edition mod equivalent. You can visit its repo [here](https://github.com/VoxelBill/intentional-pickup).
