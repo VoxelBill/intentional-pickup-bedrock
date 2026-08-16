@@ -1,6 +1,6 @@
 <p align="center"><img src="./pack_icon.png" width=96></p>
 
-<h1><p align="center">Intentional Pickup Bedrock</p></h1>
+<h1><p align="center">Intentional Pickup (Bedrock)</p></h1>
 
 <p align="center">A simple addon that makes mobs only pickup items that are intentionally dropped by players.</p>
 
@@ -12,11 +12,11 @@
 
 ## About The Project
 
-**Intentional Pickup Bedrock** is a small and lightweight addon that changes mobs to ***only*** pickup items that are dropped by players and optionally only items included in the whitelist or not included in the blacklist. This change should reduce lag by preventing mass build-up of mobs in caves in long term worlds and servers. If running on a server the addon is only required on the server side and is not required to be on the client.
+**Intentional Pickup (Bedrock)** is a small and lightweight addon that changes mobs to ***only*** pickup items that are dropped by players and optionally only items included in the whitelist or not included in the blacklist. This change should reduce lag by preventing mass build-up of mobs in caves in long term worlds and servers. If running on a server the addon is only required on the server side and is not required to be on the client.
 
 ## Configuring The Whitelist/Blacklist
 
-**Intentional Pickup Bedrock** has commands for controlling its whitelist and blacklist, by default both lists are empty meaning mobs will pickup any item dropped by a player.
+**Intentional Pickup (Bedrock)** has commands for controlling its whitelist and blacklist, by default both lists are empty meaning mobs will pickup any item dropped by a player.
 
 See commands below:
 
@@ -37,8 +37,8 @@ If an item appears in both lists, the blacklist takes precedence and overrides t
 
 ## Run
 
-1. Download `intentional_pickup-bedrock-x.x.x+mc26.40.zip` from the releases page.
-2. Copy the downloaded zip file to your `behavior_packs` folder.
+1. Download `intentional_pickup-bedrock-x.x.x+mc26.40.mcaddon` from the releases page.
+2. Double click the downloaded file to import it into the game.
 
 ## Getting Started With Development
 
