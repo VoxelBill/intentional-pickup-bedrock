@@ -45,7 +45,7 @@ function build() {
     }
 
     // Create archive
-    const output = fs.createWriteStream(`build/${ADDON_ID}-bedrock-${ADDON_VERSION}+mc${MINECRAFT_VERSION}.zip`);
+    const output = fs.createWriteStream(`build/${ADDON_ID}-bedrock-${ADDON_VERSION}+mc${MINECRAFT_VERSION}.mcaddon`);
     console.log("[INFO] Creating archive...");
     const archive = new ZipArchive({
         zlib: { level: 9 }
