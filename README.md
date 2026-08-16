@@ -12,7 +12,7 @@
 
 ## About The Project
 
-**Intentional Pickup (Bedrock)** is a small and lightweight addon that changes mobs to ***only*** pickup items that are dropped by players and optionally only items included in the whitelist or not included in the blacklist. This change should reduce lag by preventing mass build-up of mobs in caves in long term worlds and servers. If running on a server the addon is only required on the server side and is not required to be on the client.
+**Intentional Pickup (Bedrock)** is a small and lightweight addon that changes mobs to ***only*** pickup items that are dropped by players and optionally only items included in the whitelist or not included in the blacklist. This change should reduce lag by preventing mass build-up of mobs in caves in long term worlds and servers.
 
 ## Configuring The Whitelist/Blacklist
 
@@ -74,7 +74,7 @@ node esbuild.js
 node buildpack.js clean build
 ```
 
-You can find the built addon at `intentional-pickup-bedrock/build/intentional_pickup-bedrock-x.x.x+mc26.40.zip`.
+You can find the built addon at `intentional-pickup-bedrock/build/intentional_pickup-bedrock-x.x.x+mc26.40.mcaddon`.
 
 ## Play Java Edition?
 
