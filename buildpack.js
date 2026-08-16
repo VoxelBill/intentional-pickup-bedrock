@@ -73,13 +73,26 @@ function build() {
         console.log(`[INFO] File '${file}' added to archive successfully!`);
     }
 
-    console.log(`[INFO] Adding file 'source_link.txt' to archive...`);
-    fs.writeFileSync("source.txt", `You can find the full source code for this addon here:\n${SOURCE_URL}\n`);
-    archive.file("source_link.txt", { file: "source_link.txt" });
+    let file = "SOURCE.txt";
+    console.log(`[INFO] Adding file '${file}' to archive...`);
+    fs.writeFileSync(
+        file,
+`SOURCE CODE NOTICE
+
+This is an open-source Minecraft addon licensed under the MIT license.
+
+Full source code: ${SOURCE_URL}
+
+Please do not delete this file.
+
+Anyone who redistributes this addon (original or modified) must keep this file and its accompanying LICENSE file included.
+`
+    );
+    archive.file(file, { name: file });
     setTimeout(() => {
-        fs.rmSync("source_link.txt");
+        fs.rmSync(file);
     }, 500);
-    console.log(`[INFO] File 'source_link.txt' added to archive successfully!`);
+    console.log(`[INFO] File '${file}' added to archive successfully!`);
 
     // Finalize archive
     archive.finalize();
