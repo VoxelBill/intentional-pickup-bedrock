@@ -1,3 +1,7 @@
+> [!note]
+> This project has been migrated to Codeberg and will no longer be updated here.<br>
+> Visit the projects Codeberg repository at: https://codeberg.org/VoxelBill/intentional-pickup-bedrock
+
 <p align="center"><img src="./pack_icon.png" width=96></p>
 
 <h1><p align="center">Intentional Pickup (Bedrock)</p></h1>
